@@ -13,7 +13,7 @@ class UserTest {
     @Autowired
     private UserRepository userRepo;
 
-    @DisplayName("User 생성")
+    @DisplayName("Entity 저장")
     @Test
     void save() {
         // given
